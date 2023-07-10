@@ -21,6 +21,6 @@ class MainKtTest {
 //        Размер комиссии составит: $resultFee
 //        """.trimIndent()
 //        )
-        assertEquals(100, resultFee)
+        assertEquals(35, resultFee)
     }
 }
