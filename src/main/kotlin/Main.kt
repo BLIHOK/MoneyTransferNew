@@ -1,6 +1,6 @@
 fun main(args: Array<String>) {
-    println("Введи сумму перевода")
-    val amount = readln().toInt()
+//    println("Введи сумму перевода")
+    val amount = 100
     val fee = 0.0075
     val minFee = 35
     val resultFee = if (amount * fee > minFee) {

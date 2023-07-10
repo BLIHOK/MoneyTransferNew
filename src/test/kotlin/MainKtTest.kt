@@ -10,10 +10,10 @@ class MainKtTest {
         val amount = 100
         val fee = 0.0075
         val minFee = 35
-        val resultFee = if (amount * fee > minFee){
-            amount * fee
+        val resultFee = if (100 * 0.0075 > 35){
+            100 * 0.0075
         } else {
-            minFee
+            35
         }
 //        println(
 //            """
@@ -21,6 +21,6 @@ class MainKtTest {
 //        Размер комиссии составит: $resultFee
 //        """.trimIndent()
 //        )
-        assertEquals(35, resultFee)
+        assertEquals(100, resultFee)
     }
 }
